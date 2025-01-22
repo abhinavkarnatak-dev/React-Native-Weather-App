@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# Weather App 🌤️  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and user-friendly weather app built with React Native, NativeWind, and the Weather API. The app allows users to view real-time weather information and switch between Celsius and Fahrenheit with a button click.  
 
-## Get started
+## Features  
+- Displays current weather details using the Weather API.  
+- Toggle between Celsius and Fahrenheit seamlessly.  
+- Cross-platform compatibility powered by NativeWind.  
+- Secure API key management with `.env` file.  
 
-1. Install dependencies
+## Setup and Run Instructions  
 
-   ```bash
-   npm install
-   ```
+1. **Clone the repository**  
+   ```bash  
+   git clone https://github.com/abhinavkarnatak-dev/React-Native-Weather-App  
+   cd React-Native-Weather-App  
+   ```  
 
-2. Start the app
+2. **Install dependencies**  
+   ```bash  
+   npm install  
+   ```  
 
-   ```bash
-    npx expo start
-   ```
+3. **Set up the environment file**  
+   - Create a `.env` file in the root directory.  
+   - Add your Weather API key:  
+     ```env  
+     API_KEY=your_weather_api_key  
+     ```  
 
-In the output, you'll find options to open the app in a
+4. **Start the app**  
+   ```bash  
+   npm start  
+   ```  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   You can choose to run the app on:  
+   - A development build  
+   - Android emulator  
+   - iOS simulator  
+   - Expo Go  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tools and Libraries Used  
+- **React Native**: For building the app.  
+- **NativeWind**: For styling the app with Tailwind CSS-inspired syntax.  
+- **Weather API**: Fetching real-time weather data.  
+- **Expo**: Simplifies React Native development.  
+- **dotenv**: Securely manages environment variables.  
 
-## Get a fresh project
+## Learn More  
+- [React Native](https://reactnative.dev/)  
+- [NativeWind](https://www.nativewind.dev/)  
+- [Weather API](https://www.weatherapi.com/)  
+- [Expo Documentation](https://docs.expo.dev/)  
 
-When you're ready, run:
+---  
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Enjoy using the Weather App! 🌈
